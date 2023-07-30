@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg,rgb(192, 163, 1),rgb(241, 94, 94));
+    align-items: center;
+}
+.timer{
+    margin: 20px 10px;
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+#timeContainer{
+
+    margin: 200px 550px;
+    width: 386px;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 25px;
+    background-color: #222222;
+}
